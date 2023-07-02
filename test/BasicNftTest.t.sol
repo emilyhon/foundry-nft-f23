@@ -6,7 +6,7 @@ import {Test, console} from "forge-std/Test.sol";
 import {DeployBasicNft} from "../script/DeployBasicNft.s.sol";
 import {BasicNft} from "../src/BasicNft.sol";
 
-contract RaffleTest is Test {
+contract BasicNftTest is Test {
     DeployBasicNft public deployer;
     BasicNft public basicNft;
     address public USER = makeAddr("user");
